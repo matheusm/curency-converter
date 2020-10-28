@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #e1e3ff;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  max-width: 1200px;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  margin-top: 48px;
+  border-radius: 36px 36px 0 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.App > h1 {
+  border-bottom: 1px solid #e1e3ff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100%;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: #6d6f7e;
+}
+
+.app-form {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.app-form-control {
+  max-width: 320px;
+  width: 30%;
+}
